@@ -52,7 +52,7 @@ app.layout = html.Div([
         dbc.Col(dcc.Graph(id='my-bar', figure={},
                           config={'displayModeBar': False}), xs=6, sm=6, md=6, lg=4, xl=4)
 
-    ], no_gutters=True)
+    ],)
 ])
 
 
